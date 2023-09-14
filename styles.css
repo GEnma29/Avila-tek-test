@@ -9,6 +9,43 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.select {
+  background-color: #e2081e;
+  padding: 0;
+  margin-top: 4px;
+  padding-right: 30px;
+  height: 18px;
+  border: 0;
+  font-size: 14px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('/assets/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
+}
+.card {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+  height: auto;
+  background-image: url('/assets/DogPaw.png');
+  background-repeat: no-repeat;
+  background-position: right -0.3rem top -12px;
+}
+
+.select::-ms-expand {
+  display: none; /* remove default arrow on ie10 and ie11 */
+  background-color: white;
+}
 #nprogress {
   pointer-events: none;
 }
